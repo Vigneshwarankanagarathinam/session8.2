@@ -29,7 +29,6 @@ Assignment 2
 •	It has single NameNode so, it doesn't provides high system availability and scalability.
 •	Another issue being multi-tenancy that is it is impossible to run other frameworks than MapReduce 1.0 on a Hadoop cluster.
 •	The default replication factor of MapReduce 1.0 is 3, meaning there will be 3 copies of the data at any given time.
-
 2.	MapReduce 2.0:
 •	MapReduce 2.0 has two components – YARN ("Yet Another Resource Negotiator") that has cluster resource management capabilities and MapReduce.
 •	It has a Resource Manager for each cluster, and each data node runs a Node Manager.
